@@ -1,7 +1,5 @@
 import os
 import pandas as pd
-
-os.chdir(r'C:\Users\eilee\OneDrive\Documents\CSS 499\cluster analysis data')
 #print(os.getcwd())
 
 
