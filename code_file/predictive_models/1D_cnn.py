@@ -16,7 +16,6 @@ from sklearn.preprocessing import StandardScaler, RobustScaler
 patch_sklearn()
 
 print(os.getcwd())
-os.chdir('/Users/eileen/Documents/CSS 499')
 
 guide_data = pd.read_csv('OH_Ranked_Guides.csv')
 
