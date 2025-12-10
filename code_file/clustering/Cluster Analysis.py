@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # SpectralClustering 4d
-s_output = pd.read_csv('Label_2_4d_spectral_clustering_output.csv')
+s_output = pd.read_csv('4_spectral_clustering_output.csv')
 features = ['name', 'Guide', 'avg T0 log2fc', 'avg T24 log2fc', 'avg T48 log2fc', 'avg T72 log2fc', 'rank', 
             'slope1_score', 'slope2_score', 'slope3_score', 'slope4_score', 'slope5_score', 'slope6_score',
             'total_slope_score', 'average_slope', 'dbscan_label']
