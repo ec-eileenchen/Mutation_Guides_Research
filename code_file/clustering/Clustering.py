@@ -12,7 +12,6 @@ from sklearn.cluster import SpectralClustering, OPTICS, MeanShift, estimate_band
 from tensorflow.python.keras.utils.vis_utils import plot_model
 from hdbscan import HDBSCAN
 
-os.chdir(r'C:\Users\eilee\OneDrive\Documents\CSS 499')
 #print(os.getcwd())
 
 dataset = pd.read_csv('OH_Ranked_Guides.csv')
