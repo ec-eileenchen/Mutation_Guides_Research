@@ -24,3 +24,12 @@ Mpdels implemented: CatBoostClassifier, and LGBMClassifier
 Models implemented: RandomForestClassifier, CatBoostClassifier, KNN Classifier<br>
 XAI implemented: LIME and SHAP
 * 1D_cnn: 1 dimensional CNN model predicting the original ranks
+
+## graphs
+#### SHAP 
+* catboost_SHAP_beeswarm : SHAP beeswarm summary results of CatboostClassifier model predicting the working guides from clustering binary labels
+* randomforest_SHAP_beeswarm: SHAP beeswarm summary result of RandomForest GrindSearchCV model predicting the working guides from clustering binary labels
+* randomforest_SHAP_summary_bars: SHAP bar chart summary result of RandomForest GridSearchCV model predicting the working guides from clustering binary lables.
+#### sequence_logo
+* 4 different types of sequence logo graphs<br>
+Matrix types: weight, information, normalization, and count
