@@ -18,7 +18,6 @@ from catboost import CatBoostClassifier
 patch_sklearn()
 
 print(os.getcwd())
-os.chdir(r'C:\Users\eilee\OneDrive\Documents\CSS 499')
 
 #guide_data = pd.read_csv('New_Ranked_Guides.csv')
 guide_data = pd.read_csv('OH_Ranked_Guides.csv')
