@@ -3,9 +3,6 @@ import pandas as pd
 from itertools import groupby 
 from sklearn.preprocessing import OneHotEncoder
 
-
-print(os.getcwd())
-os.chdir('/Users/eileen/Documents/CSS 499')
 print(os.getcwd())
 
 df = pd.read_csv('Ranked_Guides.csv')
