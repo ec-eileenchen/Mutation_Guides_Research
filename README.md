@@ -23,3 +23,4 @@ Mpdels implemented: CatBoostClassifier, and LGBMClassifier
 * rank_ml_models: Models that predict the original ranks with XAI implemented<br>
 Models implemented: RandomForestClassifier, CatBoostClassifier, KNN Classifier<br>
 XAI implemented: LIME and SHAP
+* 1D_cnn: 1 dimensional CNN model predicting the original ranks
