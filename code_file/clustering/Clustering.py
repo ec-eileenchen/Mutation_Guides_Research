@@ -185,32 +185,3 @@ dataset.groupby('dbscan_label')['rank'].value_counts()
 
 
 dataset.to_csv('4_agg_clustering_output.csv')
-
-
-
-
-plt.scatter(plot_2d[:, 0], plot_2d[:, 1], c=labels)
-plt.title('DBSCAN Clusters on t-SNE projection')
-plt.xlabel('TSNE-1')
-plt.ylabel('TSNE-2')
-plt.colorbar(label='Cluster Label')
-plt.grid(False)
-plt.show()
-
-
-
-mask = labels != -1
-
-# Filter the t-SNE and labels arrays
-filtered_plot_2d = plot_2d[mask]
-filtered_labels = labels[mask]
-
-# Plot only the non-noise points
-plt.figure(figsize=(8, 6))
-plt.scatter(filtered_plot_2d[:, 0], filtered_plot_2d[:, 1], c=filtered_labels, s=10)
-plt.title('DBSCAN Clusters on t-SNE (Noise Removed)')
-plt.xlabel('TSNE-1')
-plt.ylabel('TSNE-2')
-plt.colorbar(label='Cluster Label')
-plt.grid(False)
-plt.show()
