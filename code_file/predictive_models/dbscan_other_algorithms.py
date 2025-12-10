@@ -14,7 +14,6 @@ import copy
 import numpy as np
 
 print(os.getcwd())
-os.chdir(r'C:\Users\eilee\OneDrive\Documents\CSS 499\cluster analysis data')
 
 guide_data = pd.read_csv('4_spectral_clustering_output.csv')
 guide_data = pd.read_csv('4_agg_clustering_output.csv')
@@ -166,4 +165,5 @@ logo = lm.Logo(df = info_matrix,
         shade_below = 0.5)
 logo.ax.set_xlabel('Position')
 #plt.savefig('sequence_logo.png')
+
 plt.show()
